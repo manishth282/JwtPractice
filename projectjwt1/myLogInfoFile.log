@@ -1,0 +1,362 @@
+2025-07-11T14:50:12.864+05:30  INFO 8764 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 8764 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T14:50:12.864+05:30 DEBUG 8764 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T14:50:12.864+05:30  INFO 8764 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T14:50:13.560+05:30  INFO 8764 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T14:50:13.610+05:30  INFO 8764 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-07-11T14:50:14.119+05:30  INFO 8764 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T14:50:14.130+05:30  INFO 8764 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T14:50:14.130+05:30  INFO 8764 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T14:50:14.182+05:30  INFO 8764 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T14:50:14.182+05:30  INFO 8764 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1258 ms
+2025-07-11T14:50:14.231+05:30 DEBUG 8764 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T14:50:14.694+05:30  INFO 8764 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T14:50:14.717+05:30  INFO 8764 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T14:50:14.898+05:30  INFO 8764 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6eabe718
+2025-07-11T14:50:14.898+05:30  INFO 8764 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T14:50:15.626+05:30  INFO 8764 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T14:50:15.912+05:30  INFO 8764 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T14:50:15.918+05:30  INFO 8764 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T14:50:15.929+05:30  INFO 8764 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T14:50:15.973+05:30  WARN 8764 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T14:50:16.200+05:30  WARN 8764 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T14:50:16.417+05:30  INFO 8764 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T14:50:16.422+05:30  INFO 8764 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 4.005 seconds (process running for 4.332)
+2025-07-11T14:50:45.647+05:30  INFO 8764 --- [projectjwt1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T14:50:45.647+05:30  INFO 8764 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T14:50:45.649+05:30  INFO 8764 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-11T14:50:45.719+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T14:50:45.719+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-2] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T14:52:33.399+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-3] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T14:52:33.400+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-3] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T14:52:41.624+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-6] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T14:52:41.624+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-6] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T14:52:50.635+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-8] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T14:52:50.635+05:30  WARN 8764 --- [projectjwt1] [http-nio-8080-exec-8] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T14:55:23.506+05:30  INFO 8764 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T14:55:23.520+05:30  INFO 8764 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T14:55:23.524+05:30  INFO 8764 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T14:55:23.526+05:30  INFO 8764 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T14:55:23.530+05:30  INFO 8764 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T14:55:26.605+05:30  INFO 13080 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 13080 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T14:55:26.605+05:30 DEBUG 13080 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T14:55:26.605+05:30  INFO 13080 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T14:55:27.254+05:30  INFO 13080 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T14:55:27.302+05:30  INFO 13080 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2025-07-11T14:55:27.807+05:30  INFO 13080 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T14:55:27.815+05:30  INFO 13080 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T14:55:27.815+05:30  INFO 13080 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T14:55:27.870+05:30  INFO 13080 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T14:55:27.870+05:30  INFO 13080 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2025-07-11T14:55:27.924+05:30 DEBUG 13080 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T14:55:28.389+05:30  INFO 13080 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T14:55:28.417+05:30  INFO 13080 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T14:55:28.594+05:30  INFO 13080 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5353dd09
+2025-07-11T14:55:28.594+05:30  INFO 13080 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T14:55:29.307+05:30  INFO 13080 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T14:55:29.610+05:30  INFO 13080 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T14:55:29.619+05:30  INFO 13080 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T14:55:29.626+05:30  INFO 13080 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T14:55:29.671+05:30  WARN 13080 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T14:55:29.881+05:30  WARN 13080 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T14:55:30.092+05:30  INFO 13080 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T14:55:30.102+05:30  INFO 13080 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.933 seconds (process running for 4.263)
+2025-07-11T14:56:31.719+05:30  INFO 13080 --- [projectjwt1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T14:56:31.719+05:30  INFO 13080 --- [projectjwt1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T14:56:31.719+05:30  INFO 13080 --- [projectjwt1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-11T14:56:31.785+05:30  WARN 13080 --- [projectjwt1] [http-nio-8080-exec-1] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T14:56:31.785+05:30 ERROR 13080 --- [projectjwt1] [http-nio-8080-exec-1] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T14:58:11.319+05:30  INFO 13080 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T14:58:11.335+05:30  INFO 13080 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T14:58:11.335+05:30  INFO 13080 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T14:58:11.335+05:30  INFO 13080 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T14:58:11.345+05:30  INFO 13080 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T14:58:14.207+05:30  INFO 2644 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 2644 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T14:58:14.207+05:30 DEBUG 2644 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T14:58:14.207+05:30  INFO 2644 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T14:58:14.869+05:30  INFO 2644 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T14:58:14.923+05:30  INFO 2644 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-07-11T14:58:15.408+05:30  INFO 2644 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T14:58:15.422+05:30  INFO 2644 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T14:58:15.422+05:30  INFO 2644 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T14:58:15.471+05:30  INFO 2644 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T14:58:15.471+05:30  INFO 2644 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1220 ms
+2025-07-11T14:58:15.531+05:30 DEBUG 2644 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T14:58:15.895+05:30  INFO 2644 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T14:58:15.926+05:30  INFO 2644 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T14:58:16.196+05:30  INFO 2644 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45b96e4c
+2025-07-11T14:58:16.208+05:30  INFO 2644 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T14:58:16.835+05:30  INFO 2644 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T14:58:17.104+05:30  INFO 2644 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T14:58:17.116+05:30  INFO 2644 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T14:58:17.123+05:30  INFO 2644 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T14:58:17.171+05:30  WARN 2644 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T14:58:17.385+05:30  WARN 2644 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T14:58:17.582+05:30  INFO 2644 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T14:58:17.595+05:30  INFO 2644 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.813 seconds (process running for 4.101)
+2025-07-11T15:00:57.234+05:30  INFO 2644 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:00:57.234+05:30  INFO 2644 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:00:57.250+05:30  INFO 2644 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:00:57.250+05:30  INFO 2644 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:00:57.260+05:30  INFO 2644 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:00:59.992+05:30  INFO 17452 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 17452 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:00:59.992+05:30 DEBUG 17452 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:00:59.992+05:30  INFO 17452 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:01:00.647+05:30  INFO 17452 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:01:00.697+05:30  INFO 17452 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2025-07-11T15:01:01.162+05:30  INFO 17452 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:01:01.173+05:30  INFO 17452 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:01:01.173+05:30  INFO 17452 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:01:01.217+05:30  INFO 17452 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:01:01.217+05:30  INFO 17452 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1176 ms
+2025-07-11T15:01:01.269+05:30 DEBUG 17452 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:01:01.657+05:30  INFO 17452 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:01:01.673+05:30  INFO 17452 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:01:01.927+05:30  INFO 17452 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4def42c3
+2025-07-11T15:01:01.927+05:30  INFO 17452 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:01:02.595+05:30  INFO 17452 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:01:02.891+05:30  INFO 17452 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:01:02.907+05:30  INFO 17452 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:01:02.913+05:30  INFO 17452 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:01:02.958+05:30  WARN 17452 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:01:03.143+05:30  WARN 17452 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:01:03.153+05:30  WARN 17452 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:01:03.158+05:30  WARN 17452 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@4f836d9
+2025-07-11T15:01:03.362+05:30  INFO 17452 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:01:03.367+05:30  INFO 17452 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.799 seconds (process running for 4.083)
+2025-07-11T15:04:26.298+05:30  INFO 17452 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:04:26.312+05:30  INFO 17452 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:04:26.312+05:30  INFO 17452 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:04:26.312+05:30  INFO 17452 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:04:26.312+05:30  INFO 17452 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:13:53.662+05:30  INFO 14356 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 14356 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:13:53.672+05:30 DEBUG 14356 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:13:53.672+05:30  INFO 14356 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:13:54.359+05:30  INFO 14356 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:13:54.407+05:30  INFO 14356 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-07-11T15:13:54.860+05:30  INFO 14356 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:13:54.866+05:30  INFO 14356 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:13:54.866+05:30  INFO 14356 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:13:54.913+05:30  INFO 14356 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:13:54.913+05:30  INFO 14356 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2025-07-11T15:13:54.929+05:30  WARN 14356 --- [projectjwt1] [main] c.c.projectjwt1.service.JWTService       : ************** JWTService constructor execution.....
+2025-07-11T15:13:54.970+05:30 DEBUG 14356 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:13:55.367+05:30  INFO 14356 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:13:55.390+05:30  INFO 14356 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:13:55.548+05:30  INFO 14356 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63a7781
+2025-07-11T15:13:55.548+05:30  INFO 14356 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:13:56.166+05:30  INFO 14356 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:13:56.465+05:30  INFO 14356 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:13:56.485+05:30  INFO 14356 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:13:56.487+05:30  INFO 14356 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:13:56.535+05:30  WARN 14356 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:13:56.728+05:30  WARN 14356 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:13:56.742+05:30  WARN 14356 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:13:56.742+05:30  WARN 14356 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@7621c3f7
+2025-07-11T15:13:56.978+05:30  INFO 14356 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:13:56.993+05:30  INFO 14356 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.741 seconds (process running for 4.039)
+2025-07-11T15:14:08.068+05:30  INFO 14356 --- [projectjwt1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T15:14:08.068+05:30  INFO 14356 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T15:14:08.068+05:30  INFO 14356 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-11T15:14:08.091+05:30  WARN 14356 --- [projectjwt1] [http-nio-8080-exec-2] com.company.projectjwt1.JWTFilter        : ************** JWTFilter method name doFilterInternal......
+2025-07-11T15:14:08.146+05:30  WARN 14356 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T15:14:08.146+05:30  WARN 14356 --- [projectjwt1] [http-nio-8080-exec-2] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T15:14:08.685+05:30  WARN 14356 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.exceptions.GlobalExceptionHandler  : ************** GlobalExceptionHandler's method-> runtimeException
+2025-07-11T15:23:53.655+05:30  INFO 14356 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:23:53.672+05:30  INFO 14356 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:23:53.676+05:30  INFO 14356 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:23:53.676+05:30  INFO 14356 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:23:53.688+05:30  INFO 14356 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:23:57.431+05:30  INFO 6200 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 6200 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:23:57.431+05:30 DEBUG 6200 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:23:57.431+05:30  INFO 6200 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:23:58.089+05:30  INFO 6200 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:23:58.137+05:30  INFO 6200 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-07-11T15:23:58.616+05:30  INFO 6200 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:23:58.637+05:30  INFO 6200 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:23:58.637+05:30  INFO 6200 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:23:58.675+05:30  INFO 6200 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:23:58.675+05:30  INFO 6200 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1196 ms
+2025-07-11T15:23:58.703+05:30  WARN 6200 --- [projectjwt1] [main] c.c.projectjwt1.service.JWTService       : ************** JWTService constructor execution.....
+2025-07-11T15:23:58.737+05:30 DEBUG 6200 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:23:59.083+05:30  INFO 6200 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:23:59.101+05:30  INFO 6200 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:23:59.285+05:30  INFO 6200 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22686ddb
+2025-07-11T15:23:59.285+05:30  INFO 6200 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:23:59.949+05:30  INFO 6200 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:24:00.239+05:30  INFO 6200 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:24:00.251+05:30  INFO 6200 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:24:00.251+05:30  INFO 6200 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:24:00.302+05:30  WARN 6200 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:24:00.519+05:30  WARN 6200 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:24:00.535+05:30  WARN 6200 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:24:00.535+05:30  WARN 6200 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@89ff043
+2025-07-11T15:24:00.774+05:30  INFO 6200 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:24:00.787+05:30  INFO 6200 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.77 seconds (process running for 4.08)
+2025-07-11T15:24:00.968+05:30  INFO 6200 --- [projectjwt1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T15:24:00.968+05:30  INFO 6200 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T15:24:00.968+05:30  INFO 6200 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-11T15:24:00.984+05:30  WARN 6200 --- [projectjwt1] [http-nio-8080-exec-2] com.company.projectjwt1.JWTFilter        : ************** JWTFilter method name doFilterInternal......
+2025-07-11T15:24:01.048+05:30  WARN 6200 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T15:24:01.048+05:30  WARN 6200 --- [projectjwt1] [http-nio-8080-exec-2] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T15:24:01.379+05:30  WARN 6200 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.exceptions.GlobalExceptionHandler  : ************** GlobalExceptionHandler's method-> runtimeException
+2025-07-11T15:29:26.278+05:30  INFO 6200 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:29:26.294+05:30  INFO 6200 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:29:26.303+05:30  INFO 6200 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:29:26.303+05:30  INFO 6200 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:29:26.312+05:30  INFO 6200 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:29:29.428+05:30  INFO 15760 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 15760 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:29:29.428+05:30 DEBUG 15760 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:29:29.428+05:30  INFO 15760 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:29:30.075+05:30  INFO 15760 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:29:30.119+05:30  INFO 15760 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-07-11T15:29:30.594+05:30  INFO 15760 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:29:30.609+05:30  INFO 15760 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:29:30.609+05:30  INFO 15760 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:29:30.652+05:30  INFO 15760 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:29:30.652+05:30  INFO 15760 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2025-07-11T15:29:30.668+05:30  WARN 15760 --- [projectjwt1] [main] c.c.projectjwt1.service.JWTService       : ************** JWTService constructor execution.....
+2025-07-11T15:29:30.695+05:30 DEBUG 15760 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:29:31.099+05:30  INFO 15760 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:29:31.113+05:30  INFO 15760 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:29:31.257+05:30  INFO 15760 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22686ddb
+2025-07-11T15:29:31.257+05:30  INFO 15760 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:29:31.897+05:30  INFO 15760 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:29:32.177+05:30  INFO 15760 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:29:32.193+05:30  INFO 15760 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:29:32.193+05:30  INFO 15760 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:29:32.232+05:30  WARN 15760 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:29:32.429+05:30  WARN 15760 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:29:32.445+05:30  WARN 15760 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:29:32.451+05:30  WARN 15760 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@4d145177
+2025-07-11T15:29:32.652+05:30  INFO 15760 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:29:32.659+05:30  INFO 15760 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.651 seconds (process running for 3.946)
+2025-07-11T15:29:39.596+05:30  INFO 15760 --- [projectjwt1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T15:29:39.596+05:30  INFO 15760 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T15:29:39.596+05:30  INFO 15760 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-11T15:29:39.611+05:30  WARN 15760 --- [projectjwt1] [http-nio-8080-exec-2] com.company.projectjwt1.JWTFilter        : ************** JWTFilter method name doFilterInternal......
+2025-07-11T15:29:39.675+05:30  WARN 15760 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T15:29:39.675+05:30  WARN 15760 --- [projectjwt1] [http-nio-8080-exec-2] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T15:29:39.912+05:30  WARN 15760 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.service.CustomUserDetailsService   : ************** Custom User Details service method -> load User by username
+2025-07-11T15:29:40.226+05:30  WARN 15760 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.exceptions.GlobalExceptionHandler  : ************** GlobalExceptionHandler's method-> runtimeException
+2025-07-11T15:34:11.366+05:30  INFO 15760 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:34:11.374+05:30  INFO 15760 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:34:11.374+05:30  INFO 15760 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:34:11.374+05:30  INFO 15760 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:34:11.393+05:30  INFO 15760 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:35:20.110+05:30  INFO 10124 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 10124 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:35:20.110+05:30 DEBUG 10124 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:35:20.126+05:30  INFO 10124 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:35:20.773+05:30  INFO 10124 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:35:20.821+05:30  INFO 10124 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-07-11T15:35:21.297+05:30  INFO 10124 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:35:21.310+05:30  INFO 10124 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:35:21.310+05:30  INFO 10124 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:35:21.342+05:30  INFO 10124 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:35:21.342+05:30  INFO 10124 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1181 ms
+2025-07-11T15:35:21.366+05:30  WARN 10124 --- [projectjwt1] [main] c.c.projectjwt1.service.JWTService       : ************** JWTService constructor execution.....
+2025-07-11T15:35:21.400+05:30 DEBUG 10124 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:35:21.785+05:30  INFO 10124 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:35:21.817+05:30  INFO 10124 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:35:21.966+05:30  INFO 10124 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@166ce247
+2025-07-11T15:35:21.966+05:30  INFO 10124 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:35:22.568+05:30  INFO 10124 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:35:22.849+05:30  INFO 10124 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:35:22.862+05:30  INFO 10124 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:35:22.867+05:30  INFO 10124 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:35:22.912+05:30  WARN 10124 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:35:23.101+05:30  WARN 10124 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:35:23.111+05:30  WARN 10124 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:35:23.113+05:30  WARN 10124 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@c7b100b
+2025-07-11T15:35:23.327+05:30  INFO 10124 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:35:23.334+05:30  INFO 10124 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.637 seconds (process running for 3.921)
+2025-07-11T15:35:29.701+05:30  INFO 10124 --- [projectjwt1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T15:35:29.701+05:30  INFO 10124 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T15:35:29.701+05:30  INFO 10124 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-11T15:35:29.727+05:30  WARN 10124 --- [projectjwt1] [http-nio-8080-exec-2] com.company.projectjwt1.JWTFilter        : ************** JWTFilter method name doFilterInternal......
+2025-07-11T15:35:29.788+05:30  WARN 10124 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T15:35:29.790+05:30  WARN 10124 --- [projectjwt1] [http-nio-8080-exec-2] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T15:35:30.018+05:30  WARN 10124 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.service.CustomUserDetailsService   : ************** Custom User Details service method -> load User by username
+2025-07-11T15:35:30.332+05:30  WARN 10124 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.exceptions.GlobalExceptionHandler  : ************** GlobalExceptionHandler's method-> runtimeException
+2025-07-11T15:35:44.738+05:30  INFO 10124 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:35:44.754+05:30  INFO 10124 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:35:44.754+05:30  INFO 10124 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:35:44.754+05:30  INFO 10124 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:35:44.774+05:30  INFO 10124 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:35:47.323+05:30  INFO 3308 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 3308 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:35:47.323+05:30 DEBUG 3308 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:35:47.323+05:30  INFO 3308 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:35:47.986+05:30  INFO 3308 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:35:48.020+05:30  INFO 3308 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-07-11T15:35:48.486+05:30  INFO 3308 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:35:48.494+05:30  INFO 3308 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:35:48.494+05:30  INFO 3308 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:35:48.541+05:30  INFO 3308 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:35:48.541+05:30  INFO 3308 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2025-07-11T15:35:48.561+05:30  WARN 3308 --- [projectjwt1] [main] c.c.projectjwt1.service.JWTService       : ************** JWTService constructor execution.....
+2025-07-11T15:35:48.588+05:30 DEBUG 3308 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:35:48.986+05:30  INFO 3308 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:35:49.017+05:30  INFO 3308 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:35:49.160+05:30  INFO 3308 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63a7781
+2025-07-11T15:35:49.160+05:30  INFO 3308 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:35:49.799+05:30  INFO 3308 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:35:50.073+05:30  INFO 3308 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:35:50.087+05:30  INFO 3308 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:35:50.087+05:30  INFO 3308 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:35:50.129+05:30  WARN 3308 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:35:50.332+05:30  WARN 3308 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:35:50.332+05:30  WARN 3308 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:35:50.332+05:30  WARN 3308 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@7621c3f7
+2025-07-11T15:35:50.543+05:30  INFO 3308 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:35:50.553+05:30  INFO 3308 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 3.621 seconds (process running for 3.933)
+2025-07-11T15:35:54.427+05:30  INFO 3308 --- [projectjwt1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T15:35:54.427+05:30  INFO 3308 --- [projectjwt1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T15:35:54.442+05:30  INFO 3308 --- [projectjwt1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2025-07-11T15:35:54.457+05:30  WARN 3308 --- [projectjwt1] [http-nio-8080-exec-1] com.company.projectjwt1.JWTFilter        : ************** JWTFilter method name doFilterInternal......
+2025-07-11T15:35:54.512+05:30  WARN 3308 --- [projectjwt1] [http-nio-8080-exec-1] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T15:35:54.521+05:30  WARN 3308 --- [projectjwt1] [http-nio-8080-exec-1] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T15:35:54.773+05:30  WARN 3308 --- [projectjwt1] [http-nio-8080-exec-1] c.c.p.service.CustomUserDetailsService   : ************** Custom User Details service method -> load User by username
+2025-07-11T15:35:55.079+05:30  WARN 3308 --- [projectjwt1] [http-nio-8080-exec-1] c.c.p.security.MyCustomEntryPoint        : {"error": "Unauthorized", "message": "Bad credentials"}
+2025-07-11T15:46:51.321+05:30  INFO 3308 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T15:46:51.353+05:30  INFO 3308 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T15:46:51.359+05:30  INFO 3308 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:46:51.369+05:30  INFO 3308 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T15:46:51.381+05:30  INFO 3308 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-11T15:48:44.879+05:30  INFO 16060 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Starting Projectjwt1Application using Java 23.0.2 with PID 16060 (D:\IntellijWorkspace\projectjwt1\target\classes started by 1478 in D:\IntellijWorkspace\projectjwt1)
+2025-07-11T15:48:44.880+05:30 DEBUG 16060 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Running with Spring Boot v3.4.7, Spring v6.2.8
+2025-07-11T15:48:44.880+05:30  INFO 16060 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : No active profile set, falling back to 1 default profile: "default"
+2025-07-11T15:48:45.543+05:30  INFO 16060 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-11T15:48:45.591+05:30  INFO 16060 --- [projectjwt1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-07-11T15:48:46.096+05:30  INFO 16060 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-11T15:48:46.112+05:30  INFO 16060 --- [projectjwt1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-11T15:48:46.112+05:30  INFO 16060 --- [projectjwt1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-11T15:48:46.175+05:30  INFO 16060 --- [projectjwt1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-11T15:48:46.175+05:30  INFO 16060 --- [projectjwt1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1250 ms
+2025-07-11T15:48:46.191+05:30  WARN 16060 --- [projectjwt1] [main] c.c.projectjwt1.service.JWTService       : ************** JWTService constructor execution.....
+2025-07-11T15:48:46.227+05:30 DEBUG 16060 --- [projectjwt1] [main] com.company.projectjwt1.JWTFilter        : Filter 'JWTFilter' configured for use
+2025-07-11T15:48:46.698+05:30  INFO 16060 --- [projectjwt1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-11T15:48:46.730+05:30  INFO 16060 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-11T15:48:46.901+05:30  INFO 16060 --- [projectjwt1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d92e8e2
+2025-07-11T15:48:46.904+05:30  INFO 16060 --- [projectjwt1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-11T15:48:47.643+05:30  INFO 16060 --- [projectjwt1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T15:48:47.934+05:30  INFO 16060 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecurityConfig class calls and authenticationManager method Execution
+2025-07-11T15:48:47.951+05:30  INFO 16060 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : **************This is SecutityConfig class calls and passwordEncoder method Execution
+2025-07-11T15:48:47.955+05:30  INFO 16060 --- [projectjwt1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-11T15:48:48.002+05:30  WARN 16060 --- [projectjwt1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-11T15:48:48.225+05:30  WARN 16060 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** This is SecurityConfig's securityFilterChain method call.....
+2025-07-11T15:48:48.236+05:30  WARN 16060 --- [projectjwt1] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/clients] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-11T15:48:48.236+05:30  WARN 16060 --- [projectjwt1] [main] c.c.projectjwt1.config.SecurityConfig    : ************** HttpSecurity ;;; org.springframework.security.config.annotation.web.builders.HttpSecurity@508abc74
+2025-07-11T15:48:48.452+05:30  INFO 16060 --- [projectjwt1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-11T15:48:48.465+05:30  INFO 16060 --- [projectjwt1] [main] c.c.projectjwt1.Projectjwt1Application   : Started Projectjwt1Application in 4.044 seconds (process running for 4.368)
+2025-07-11T15:48:51.682+05:30  INFO 16060 --- [projectjwt1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-11T15:48:51.682+05:30  INFO 16060 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-11T15:48:51.684+05:30  INFO 16060 --- [projectjwt1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-11T15:48:51.702+05:30  WARN 16060 --- [projectjwt1] [http-nio-8080-exec-2] com.company.projectjwt1.JWTFilter        : ************** JWTFilter method name doFilterInternal......
+2025-07-11T15:48:51.769+05:30  WARN 16060 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.controller.ClientController        : This is login method calls
+2025-07-11T15:48:51.773+05:30  WARN 16060 --- [projectjwt1] [http-nio-8080-exec-2] c.c.projectjwt1.service.ClientService    : This is login method inside service class
+2025-07-11T15:48:52.002+05:30  WARN 16060 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.service.CustomUserDetailsService   : ************** Custom User Details service method -> load User by username
+2025-07-11T15:48:52.119+05:30  WARN 16060 --- [projectjwt1] [http-nio-8080-exec-2] c.c.p.security.MyCustomEntryPoint        : {"error": "Unauthorized", "message": "User not found"}
+2025-07-11T16:11:50.410+05:30  INFO 16060 --- [projectjwt1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-11T16:11:50.584+05:30  INFO 16060 --- [projectjwt1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-11T16:11:50.679+05:30  INFO 16060 --- [projectjwt1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-11T16:11:50.808+05:30  INFO 16060 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-11T16:11:50.869+05:30  INFO 16060 --- [projectjwt1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
